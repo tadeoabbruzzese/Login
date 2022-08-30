@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Noto+Sans+JP:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fafafa;
+}
+
+
+body{
+    padding: 20px;
+    background: #0f0c29;    
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.headermain{
+    display: flex;
+    flex-direction: row;
+    background-color: #302b63;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    height: 70px;
+    
+
+}
+
+.logo img{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 40px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    
+  
+}
+
+a:hover{
+    color: palevioletred
+}
+
+a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24243e;
+    height: 450px;
+    width: 300px;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+
+.img img{
+    height: 100%;
+    width: 100px;
+    
+}
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.logininput{
+    display: flex;
+    padding-left: 10px;
+    height: 34px;
+    border-radius: 10px;
+    color: black;
+    transition: height .4s;
+    border: 2px solid #0f0c29;
+}
+
+.logininput:focus{
+    height: 40px;
+}
+
+
+.button input{
+    display: flex;
+    width: 80px;
+    justify-content: center;
+    color:#0f0c29;
+    transition: width .25s;
+    height: 30px;
+    border-radius: 10px;
+   
+}
+
+.button input:hover{
+    width: 100px;
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: column;
+   
+}
+
